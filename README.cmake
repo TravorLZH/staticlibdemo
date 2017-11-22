@@ -4,5 +4,5 @@ Type the following commands:
 
 $ cmake .
 $ make
-$ make install
+# make install
 

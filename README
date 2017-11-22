@@ -11,7 +11,7 @@ To build up the project, use the following:
 
 $ ./configure
 $ make
-$ make install
+# make install
 
 You may archive this project by:
 
