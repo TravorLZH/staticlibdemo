@@ -2,10 +2,10 @@ GNU Autotools Manual
 ====================
 To generate configure script and Makefile(s), also config headers, use the following:
 
+$ autoheader
 $ aclocal
 $ automake --add-missing
 $ autoconf
-$ autoheader
 
 To build up the project, use the following:
 

@@ -1,0 +1,6 @@
+src/uselib.o: src/uselib.c /usr/include/stdc-predef.h \
+ include/hello/hello.h
+
+/usr/include/stdc-predef.h:
+
+include/hello/hello.h:
