@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.6)
+project(hellolib)
+set(PROJECT_SOURCE_DIR "src")
+set(PROJECT_INCLUDE_DIR "include")
+include_directories("${PROJECT_INCLUDE_DIR}")
+add_executable(uselib "${PROJECT_SOURCE_DIR}/uselib.c")
+target_link_libraries(uselib hello)
+add_library(hello "${PROJECT_SOURCE_DIR}/hello.c")
+install(TARGETS uselib DESTINATION bin)
+install(TARGETS hello DESTINATION lib)
+install(FILES include/hello/hello.h DESTINATION include/hello)
+
